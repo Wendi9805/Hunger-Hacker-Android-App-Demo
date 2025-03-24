@@ -3,7 +3,6 @@ package com.example.groupproject.searchFunction;
 import java.util.List;
 /**
  * @author Ke Wen
- * @studentId u7588635
  */
 /**
  * grammar rules

@@ -8,7 +8,6 @@ import java.io.Serializable;
  * all the attributes also match the names in firebase database
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class User implements Serializable {

@@ -27,7 +27,6 @@ import java.util.Map;
  * Provides methods to observe and manipulate data in Firebase.
  *
  * @author ${Muhammad Arslan Amjad Qureshi}
- * @studentId ${u7632488}
  */
 public class FbPersistAndExtensionFunctionality {
 

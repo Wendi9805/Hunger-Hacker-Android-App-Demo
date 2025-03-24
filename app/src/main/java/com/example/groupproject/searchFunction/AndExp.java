@@ -9,7 +9,6 @@ import java.util.Set;
 import java.util.stream.Collectors;
 /**
  * @author Ke Wen
- * @studentId u7588635
  */
 public class AndExp extends Exp {
     private Exp left;

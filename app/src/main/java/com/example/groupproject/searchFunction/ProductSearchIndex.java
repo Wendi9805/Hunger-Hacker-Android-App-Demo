@@ -15,7 +15,6 @@ import java.util.ArrayList;
 import java.util.List;
 /**
  * @author Ke Wen
- * @studentId u7588635
  */
 public class ProductSearchIndex {
 

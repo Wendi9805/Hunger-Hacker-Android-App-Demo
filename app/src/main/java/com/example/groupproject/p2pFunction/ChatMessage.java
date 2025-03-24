@@ -8,7 +8,6 @@ import java.util.Date;
  * all the attributes also match the names in firebase database
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class ChatMessage {

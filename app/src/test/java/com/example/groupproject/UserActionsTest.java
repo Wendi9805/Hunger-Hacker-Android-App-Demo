@@ -11,7 +11,6 @@ import com.example.groupproject.dataStreamFunctions.UserActions;
  * This class includes tests for both getter and setter methods, ensuring that data is properly managed and updated.
  *
  * @author ${Muhammad Arslan Amjad Qureshi}
- * @studentId ${u7632488}
  */
 
 
@@ -20,7 +19,6 @@ import com.example.groupproject.dataStreamFunctions.UserActions;
  * It does so by validating the getter, setter, and toString() methods using predefined test data, ensuring correctness and consistency in behaviour
  * Suggested and collaborated with teammate to implement it showcasing teamwork.
  * @author ${Tohfa Siddika Barbhuiya}-co authored
- * @studentId :- ${u7665856}
  */
 public class UserActionsTest {
     // Instance of UserActions to be used in tests

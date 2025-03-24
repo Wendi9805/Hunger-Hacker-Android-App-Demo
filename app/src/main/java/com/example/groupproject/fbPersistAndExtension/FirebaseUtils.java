@@ -10,7 +10,6 @@ import com.google.firebase.database.ValueEventListener;
 /**
  * Utility class to handle Firebase initialization and connection monitoring.
  * @author Muhammad Arslan Amjad Qureshi
- * @studentId u7632488
  */
 public class FirebaseUtils {
 

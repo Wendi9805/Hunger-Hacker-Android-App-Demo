@@ -9,7 +9,6 @@ import android.content.SharedPreferences;
  * Using the Facade pattern to organize complex inner functions
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 // Code Smell: This class created to help solve code smell for our program design (committed before April 30th)

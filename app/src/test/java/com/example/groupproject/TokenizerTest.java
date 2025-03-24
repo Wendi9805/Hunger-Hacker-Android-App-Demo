@@ -7,7 +7,6 @@ import com.example.groupproject.searchFunction.Token;
 import com.example.groupproject.searchFunction.Tokenizer;
 /**
  * @author Ke Wen
- * @studentId u7588635
  */
 public class TokenizerTest {
     @Test

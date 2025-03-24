@@ -38,7 +38,6 @@ import java.util.Objects;
  * with that user's new account.
  *
  * @author ${Kyle Greenwood}
- * @studentId ${u7472943}
  */
 
 public class RegistrationActivity extends AppCompatActivity {
@@ -83,7 +82,6 @@ public class RegistrationActivity extends AppCompatActivity {
         /**
          * Verified that data used in this file is persisted in firebase
          * @Verified by:- Muhammad Arslan Amjad Qureshi
-         * @studentID :- u7632488
          */
 
         auth = FirebaseAuth.getInstance();

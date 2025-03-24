@@ -22,7 +22,6 @@ import com.google.firebase.database.FirebaseDatabase;
  * This page is to let user post foodData and add it in Firebase
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class PostActivity extends AppCompatActivity {
@@ -50,7 +49,6 @@ public class PostActivity extends AppCompatActivity {
         /**
          * Verified that data used in this file is persisted in firebase
          * @Verified by:- Muhammad Arslan Amjad Qureshi
-         * @studentID :- u7632488
          */
 
         databaseReference = FirebaseDatabase.getInstance().getReference("FoodData");

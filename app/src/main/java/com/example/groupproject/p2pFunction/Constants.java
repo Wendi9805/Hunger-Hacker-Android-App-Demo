@@ -5,7 +5,6 @@ package com.example.groupproject.p2pFunction;
  * all the attributes also match the names in firebase database
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class Constants {

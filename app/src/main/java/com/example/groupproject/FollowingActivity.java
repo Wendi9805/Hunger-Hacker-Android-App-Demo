@@ -27,7 +27,6 @@ import java.util.ArrayList;
  * major providers in Australia.
  *
  * @author ${Kyle Greenwood}
- * @studentId ${u7472943}
  */
 
 public class FollowingActivity extends AppCompatActivity {

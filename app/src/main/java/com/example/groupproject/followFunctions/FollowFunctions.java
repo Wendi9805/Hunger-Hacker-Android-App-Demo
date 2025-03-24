@@ -26,7 +26,6 @@ import java.util.Objects;
  * the LoadActivity and FollowingActivity.
  *
  * @author ${Kyle Greenwood}
- * @studentId ${u7472943}
  */
 
 public class FollowFunctions {
@@ -59,7 +58,6 @@ public class FollowFunctions {
     /**
      * Verified that data used in this file is persisted in firebase
      * @Verified by:- Muhammad Arslan Amjad Qureshi
-     * @studentID :- u7632488
      */
 
     // Get the Firestore document reference for specified user.

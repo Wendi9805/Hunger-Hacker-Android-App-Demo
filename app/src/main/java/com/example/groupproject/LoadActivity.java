@@ -46,7 +46,6 @@ import java.util.Collections;
  * there's a button on the top left, user can use it post their food into and add it in the database
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class LoadActivity extends AppCompatActivity implements UserActionObservers {

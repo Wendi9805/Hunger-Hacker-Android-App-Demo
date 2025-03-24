@@ -16,7 +16,6 @@ import java.util.List;
  * The main function of this class is to put chat messages data from the database into a RecyclerView and visualize it.
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{

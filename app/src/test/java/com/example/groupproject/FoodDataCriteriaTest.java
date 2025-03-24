@@ -11,7 +11,6 @@ import org.junit.Test;
  * Test if the FoodDataCriteria works rightly
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class FoodDataCriteriaTest {

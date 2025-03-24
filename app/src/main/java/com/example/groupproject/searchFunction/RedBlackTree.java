@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 /**
  * @author Ke Wen
- * @studentId u7588635
  */
 public class RedBlackTree {
     private static final boolean RED = true;

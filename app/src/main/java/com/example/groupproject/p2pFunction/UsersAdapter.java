@@ -17,7 +17,6 @@ import java.util.List;
  * The main function of this class is to put User data from the database into a RecyclerView and visualize it.
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UserViewHolder> {

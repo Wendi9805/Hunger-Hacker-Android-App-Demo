@@ -9,7 +9,6 @@ import com.google.firebase.database.DatabaseError;
  * about data changes or errors in Firebase database operations.
  *
  * @author Muhammad Arslan Amjad Qureshi
- * @studentId u7632488
  */
 public interface FirebaseDataObserver {
 

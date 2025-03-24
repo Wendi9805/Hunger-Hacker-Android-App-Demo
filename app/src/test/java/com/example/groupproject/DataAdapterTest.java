@@ -13,7 +13,6 @@ import java.util.ArrayList;
  * Test if the DataAdapter works rightly
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class DataAdapterTest {

@@ -39,7 +39,6 @@ import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 /**
  * @author Ke Wen
- * @studentId u7588635
  */
 public class SearchPage extends AppCompatActivity {
     private RecyclerView searchResult;

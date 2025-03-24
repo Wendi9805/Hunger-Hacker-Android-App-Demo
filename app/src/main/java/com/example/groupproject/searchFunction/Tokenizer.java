@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 /**
  * @author Wendi Fan & Ke Wen
- * @studentId u7041989  & u7588635
  */
 public class Tokenizer implements TokenIterator{
     private String buffer;

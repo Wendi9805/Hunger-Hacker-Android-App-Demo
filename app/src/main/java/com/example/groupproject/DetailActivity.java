@@ -17,7 +17,6 @@ import com.example.groupproject.loadDataFunction.FoodData;
  * users can see every attributes of this foodData
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class DetailActivity extends AppCompatActivity {

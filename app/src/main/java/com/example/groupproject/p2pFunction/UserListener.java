@@ -5,7 +5,6 @@ package com.example.groupproject.p2pFunction;
  * then they can use onUserClicked methods
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public interface UserListener {

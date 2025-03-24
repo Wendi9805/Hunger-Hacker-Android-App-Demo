@@ -21,7 +21,6 @@ import java.util.List;
  * The main function of this class is to put loaded data from the database into a RecyclerView and visualize it.
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class DataAdapter extends RecyclerView.Adapter<DataAdapter.DataViewHolder> {

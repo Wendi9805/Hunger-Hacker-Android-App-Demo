@@ -4,7 +4,6 @@ package com.example.groupproject.searchFunction;
  * This class is the instance of token and related method we need
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class Token {

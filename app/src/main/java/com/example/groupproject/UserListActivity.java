@@ -30,7 +30,6 @@ import java.util.List;
  * userLists will be loaded automatically
  *
  * @author ${Wendi Fan}
- * @studentId ${u7041989}
  */
 
 public class UserListActivity extends AppCompatActivity implements UserListener {
