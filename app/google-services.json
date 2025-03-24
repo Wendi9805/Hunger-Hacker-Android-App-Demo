@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "642433489561",
+    "firebase_url": "https://zerohungerapp-60345-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "zerohungerapp-60345",
+    "storage_bucket": "zerohungerapp-60345.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642433489561:android:95bb61277cd22aea82f608",
+        "android_client_info": {
+          "package_name": "com.example.gp_task1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdT3siUqU1MW-_hzZ34Q10mkFE2RoFd14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642433489561:android:4bb227af9f40233782f608",
+        "android_client_info": {
+          "package_name": "com.example.groupproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdT3siUqU1MW-_hzZ34Q10mkFE2RoFd14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

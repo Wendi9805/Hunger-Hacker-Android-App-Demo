@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:launchMode="singleTop"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/state_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:prompt="@string/select_state_hint"
+        android:entries="@array/state_names" />
+
+    <!-- BarChart view to display graphical data -->
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/bar_chart"
+        android:layout_width="397dp"
+        android:layout_height="677dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="85dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#00D52020"
+        android:fontFamily="sans-serif"
+        android:padding="2dp"
+        android:text="@string/Home"
+        android:textColor="#237BC1"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toStartOf="@+id/searchButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar_chart" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#00D52020"
+        android:fontFamily="sans-serif"
+        android:padding="2dp"
+        android:text="@string/Search"
+        android:textColor="#237BC1"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toStartOf="@+id/userListButton"
+        app:layout_constraintStart_toEndOf="@+id/homeButton"
+        app:layout_constraintTop_toBottomOf="@+id/bar_chart" />
+
+    <Button
+        android:id="@+id/userListButton"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#00D52020"
+        android:fontFamily="sans-serif"
+        android:padding="2dp"
+        android:text="@string/Friends"
+        android:textColor="#237BC1"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toStartOf="@+id/profile"
+        app:layout_constraintStart_toEndOf="@+id/searchButton"
+        app:layout_constraintTop_toBottomOf="@+id/bar_chart" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#00D52020"
+        android:fontFamily="sans-serif"
+        android:padding="2dp"
+        android:text="@string/Profile"
+        android:textColor="#237BC1"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toStartOf="@+id/data"
+        app:layout_constraintStart_toEndOf="@+id/userListButton"
+        app:layout_constraintTop_toBottomOf="@+id/bar_chart" />
+
+    <Button
+        android:id="@+id/data"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#00D52020"
+        android:fontFamily="sans-serif"
+        android:padding="2dp"
+        android:text="@string/Data"
+        android:textColor="#237BC1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profile"
+        app:layout_constraintTop_toBottomOf="@+id/bar_chart" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

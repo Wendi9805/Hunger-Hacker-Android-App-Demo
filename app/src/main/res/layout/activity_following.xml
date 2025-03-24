@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".FollowingActivity">
+
+
+    <TextView
+        android:id="@+id/pT_following_woolies"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="@string/pT_following_woolies"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/btn_unfollow_woolies"
+        app:layout_constraintStart_toEndOf="@+id/btn_follow_woolies"
+        app:layout_constraintTop_toBottomOf="@+id/btn_follow_woolies" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="85dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#00D52020"
+        android:fontFamily="sans-serif-medium"
+        android:padding="2dp"
+        android:text="Home"
+        android:textColor="#55A2C1"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/searchButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#00D52020"
+        android:fontFamily="sans-serif-medium"
+        android:padding="2dp"
+        android:text="Search"
+        android:textColor="#55A2C1"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/userListButton"
+        app:layout_constraintStart_toEndOf="@+id/homeButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/userListButton"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#00D52020"
+        android:fontFamily="sans-serif-medium"
+        android:padding="2dp"
+        android:text="Friends"
+        android:textColor="#55A2C1"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/profile"
+        app:layout_constraintStart_toEndOf="@+id/searchButton" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#00D52020"
+        android:fontFamily="sans-serif-medium"
+        android:padding="2dp"
+        android:text="Profile"
+        android:textColor="#237BC1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/data"
+        app:layout_constraintStart_toEndOf="@+id/userListButton" />
+
+    <Button
+        android:id="@+id/data"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#00D52020"
+        android:fontFamily="sans-serif-medium"
+        android:padding="2dp"
+        android:text="Data"
+        android:textColor="#55A2C1"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profile" />
+
+    <Button
+        android:id="@+id/btn_follow_woolies"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:alpha="0.8"
+        android:backgroundTint="#55A2C1"
+        android:text="@string/btn_following_add"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_unfollow_woolies"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.8"
+        android:backgroundTint="#55A2C1"
+        android:text="@string/btn_following_remove"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_follow_woolies" />
+
+    <Button
+        android:id="@+id/btn_follow_coles"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="75dp"
+        android:alpha="0.8"
+        android:backgroundTint="#55A2C1"
+        android:text="@string/btn_following_add"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_unfollow_woolies" />
+
+    <Button
+        android:id="@+id/btn_unfollow_coles"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.8"
+        android:backgroundTint="#55A2C1"
+        android:text="@string/btn_following_remove"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_follow_coles" />
+
+    <Button
+        android:id="@+id/btn_follow_aldi"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="75dp"
+        android:alpha="0.8"
+        android:backgroundTint="#55A2C1"
+        android:text="@string/btn_following_add"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_unfollow_coles" />
+
+    <Button
+        android:id="@+id/btn_unfollow_aldi"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.8"
+        android:backgroundTint="#55A2C1"
+        android:text="@string/btn_following_remove"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_follow_aldi" />
+
+    <TextView
+        android:id="@+id/pT_following_coles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="@string/pT_following_coles"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/btn_unfollow_coles"
+        app:layout_constraintStart_toEndOf="@+id/btn_follow_coles"
+        app:layout_constraintTop_toBottomOf="@+id/btn_follow_coles" />
+
+    <TextView
+        android:id="@+id/pT_following_aldi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="@string/pT_following_aldi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/btn_unfollow_aldi"
+        app:layout_constraintStart_toEndOf="@+id/btn_follow_aldi"
+        app:layout_constraintTop_toBottomOf="@+id/btn_follow_aldi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

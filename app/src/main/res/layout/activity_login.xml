@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_background"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/eT_login_password"
+        android:layout_width="319dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eT_login_email" />
+
+    <EditText
+        android:id="@+id/eT_login_email"
+        android:layout_width="319dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textAlignment="textStart"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="277dp"
+        android:alpha="0.8"
+        android:backgroundTint="#55A2C1"
+        android:text="@string/btn_login"
+        android:textAlignment="center"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/pT_login_reg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eT_login_password" />
+
+    <Button
+        android:id="@+id/btn_login_reg_activity"
+        android:layout_width="108dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.8"
+        android:backgroundTint="#55A2C1"
+        android:text="@string/btn_reg"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/pT_login_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="serif"
+        android:text="@string/pT_login_reg_activity"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#5B080908"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_login_reg_activity"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="341dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="35dp"
+        android:fontFamily="serif"
+        android:text="HungerHacker"
+        android:textAlignment="center"
+        android:textColor="#55A2C1"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

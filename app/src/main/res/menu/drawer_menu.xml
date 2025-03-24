@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_category"
+           android:checkableBehavior="single">
+        <item android:id="@+id/category_baby"
+              android:title="Baby" />
+        <item android:id="@+id/category_bakery"
+              android:title="Bakery" />
+        <item android:id="@+id/category_dairy"
+              android:title="Dairy" />
+        <item android:id="@+id/category_frozen"
+              android:title="Frozen" />
+        <item android:id="@+id/category_fruit_and_vegetable"
+              android:title="Fruit and Vegetable" />
+        <item android:id="@+id/category_freezer"
+              android:title="Freezer" />
+        <item android:id="@+id/category_fresh"
+              android:title="Fresh" />
+        <item android:id="@+id/category_pantry"
+              android:title="Pantry" />
+        <item android:id="@+id/category_health_and_beauty"
+              android:title="Health and Beauty" />
+        <item android:id="@+id/category_household"
+              android:title="Household" />
+        <item android:id="@+id/category_ngo"
+              android:title="NGO" />
+        <item android:id="@+id/category_university"
+              android:title="University" />
+        <item android:id="@+id/category_community"
+              android:title="Community" />
+    </group>
+</menu>
