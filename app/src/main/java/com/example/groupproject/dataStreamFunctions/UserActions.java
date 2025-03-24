@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 
 /**
  * @author ${Muhammad Arslan Amjad Qureshi}
- * @studentId ${u7632488}
  * <p>
  * Represents a user action within the application, capturing details such as the user ID,
  * type of action, content of the action, and the timestamp when the action occurred.

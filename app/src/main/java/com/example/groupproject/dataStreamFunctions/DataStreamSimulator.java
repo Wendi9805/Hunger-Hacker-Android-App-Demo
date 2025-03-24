@@ -24,7 +24,6 @@ import java.util.List;
  * data management classes should not extend activity classes.
  *
  * @author ${Muhammad Arslan Amjad Qureshi}
- * @studentId ${u7632488}
  */
 public class DataStreamSimulator extends AppCompatActivity {
 
@@ -46,7 +45,6 @@ public class DataStreamSimulator extends AppCompatActivity {
          * Verified that data used in this file is persisted in firebase
          * @Verified by:- Muhammad Arslan Amjad Qureshi
          * @author:- Muhammad Arslan Amjad Qureshi
-         * @studentID :- u7632488
          */
 
         this.databaseReference = FirebaseDatabase.getInstance().getReference("actionInteractions");
@@ -126,7 +124,6 @@ public class DataStreamSimulator extends AppCompatActivity {
 
     /**
      * @author ${Muhammad Arslan Amjad Qureshi}
-     * @studentId ${u7632488}
      * Detected Code Smell on code committed before 1st May, 2024
      * Refactored it when making the code final.
      */

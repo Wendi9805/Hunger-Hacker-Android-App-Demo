@@ -39,7 +39,6 @@ import java.util.Map;
  * is stored in Firestore, edits updated immediately and the user is redirected back to the ProfileActivity.
  * authored and implemented the complete feature requirement end to end
  * @author ${Tohfa Siddika Barbhuiya}
- * @studentId :- ${u7665856}
  */
 
 public class EditActivity extends AppCompatActivity {
@@ -65,7 +64,6 @@ public class EditActivity extends AppCompatActivity {
         /**
          * Verified that data used in this file is persisted in firebase
          * @Verified by:- Muhammad Arslan Amjad Qureshi
-         * @studentID :- u7632488
          */
 
         fAuth = FirebaseAuth.getInstance();

@@ -41,7 +41,6 @@ import javax.annotation.Nullable;
  * Firebase Authentication and redirecting to the login page.
  * authored and implemented the complete feature requirement end to end
  * @author ${Tohfa Siddika Barbhuiya}
- * @studentID :- ${u7665856}
  */
 
 public class ProfileActivity extends AppCompatActivity {
@@ -72,7 +71,6 @@ public class ProfileActivity extends AppCompatActivity {
         /**
          * Verified that data used in this file is persisted in firebase
          * @Verified by:- Muhammad Arslan Amjad Qureshi
-         * @studentID :- u7632488
          */
 
         fAuth = FirebaseAuth.getInstance();

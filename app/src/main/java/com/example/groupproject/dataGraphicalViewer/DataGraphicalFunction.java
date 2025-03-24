@@ -44,7 +44,6 @@ import java.util.Map;
  * authored and implemented the complete feature requirement end to end.
  *
  * @author ${Tohfa Siddika Barbhuiya}
- * @studentID :- ${u7665856}
  *
  * The same author also made the datafiles basic feature with more than 2500 instances persisting in realtime database of firestore.
  * So, mentioning the same here as well.
@@ -66,7 +65,6 @@ public class DataGraphicalFunction extends AppCompatActivity {
         /**
          * Verified that data used in this file is persisted in firebase
          * @Verified by:- Muhammad Arslan Amjad Qureshi
-         * @studentID :- u7632488
          */
 
 
